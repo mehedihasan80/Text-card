@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 152px;
+  max-width: 700px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+
+}
+
+
+
+@media screen and (max-width: 455px) {
+  .card {
+    height: 100%;
+    width: 300px;
+  }
+}
